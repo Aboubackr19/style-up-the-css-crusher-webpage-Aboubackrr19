@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="body-class">
+
+    <!-- Homepage Section -->
+    <header class="header-class">
+        <h1>Welcome to My Personal Website</h1>
+    </header>
+    <nav class="nav-class">
+        <a href="#about-me" class="active">About Me</a>
+        <a href="#contact-me">Contact Me</a>
+    </nav>
+
+    <section id="home">
+        <p class="home-intro text-class">This website showcases my skills and projects, and gives you a glimpse into who I am!</p>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about-me">
+        <header>
+            <h2 class="section-title-class title-class">About Me</h2>
+        </header>
+        <p class="about-intro text-class">I am a student at Belmont Abbey College, pursuing a degree in Computer Science.</p>
+        <p class="hobby text-class">In my free time, I enjoy playing basketball and building mobile applications.</p>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact-me">
+        <header>
+            <h2 class="section-title-class title-class">Contact Me</h2>
+        </header>
+        <form class="contact-form form-class">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="button-class">Submit</button>
+        </form>
+    </section>
+
+    <footer class="footer-class">
+        <p>&copy; 2025 Aboubackr Diouf | Belmont Abbey College</p>
+    </footer>
+
+</body>
+</html>
