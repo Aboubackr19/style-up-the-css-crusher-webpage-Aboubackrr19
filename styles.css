@@ -1,0 +1,101 @@
+/* General Styles for All Pages */
+.body-class {
+    background-color: #ecf0f1; /* Light gray background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header-class {
+    background-color: #3498db; /* Blue background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Bar */
+.nav-class {
+    background-color: #2c3e50; /* Dark gray background */
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-class a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.nav-class a:hover {
+    color: #3498db; /* Blue hover effect */
+}
+
+.nav-class a.active {
+    font-weight: bold; /* Bold active page link */
+}
+
+/* Titles */
+.title-class, .section-title-class {
+    color: #16a085; /* Green color for titles */
+}
+
+/* Text Class */
+.text-class {
+    color: #2c3e50; /* Dark gray text for contrast */
+}
+
+/* Image Border */
+.image-class {
+    border: 5px solid #3498db; /* Blue border around images */
+    padding: 5px;
+}
+
+/* Form Fields */
+.form-class {
+    margin: 10px 0;
+}
+
+.form-class input, 
+.form-class textarea {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+/* Button Styling */
+.button-class {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer-class {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Ensure readability */
+body {
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-class {
+        font-size: 1em;
+        padding: 8px;
+    }
+
+    .footer-class {
+        font-size: 0.9em;
+    }
+}
